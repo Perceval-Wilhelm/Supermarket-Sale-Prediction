@@ -1,3 +1,4 @@
+jupyterlab
 numpy
 pandas
 matplotlib
@@ -8,8 +9,6 @@ plotly
 scikit-learn
 tensorflow
 keras-tuner
-pickle
 imbalanced-learn
 keras
-jupyterlab
-nodejs
+
