@@ -30,7 +30,18 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the req
 - Clone the repository to your local machine.
 - Ensure you have the required libraries installed (mentioned in prerequisites).
 - Replace the placeholder dataset loading and model definitions in the script with your specific data and models.
-- Run the [Notebook.ipynb](https://github.com/sirrtt/InspireLab-Technical-Assessment-Test-for-AI-Fresher-Position/blob/main/Notebook.ipynb) file.
+- Run the [main_notebook.ipynb](https://github.com/sirrtt/InspireLab-Technical-Assessment-Test-for-AI-Fresher-Position/blob/main/Notebook.ipynb) file.
+
+## Project Structure:
+```bash
+├── data             # contain the dataset for this project
+├── model              # store models for project
+|   ├── best_model
+|   |   └── sgd_regressor_best_model.pkl
+|   └── other_models
+├── main_notebook.ipynb      # the main Notebook for this project
+├── README.md           # guideline for develop
+└── requirements.txt    # requirements to set up project
 
 ## Model Used:
 
@@ -50,7 +61,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the req
 
 ## Results:
 
-The [Notebook.ipynb](https://github.com/sirrtt/InspireLab-Technical-Assessment-Test-for-AI-Fresher-Position/blob/main/Notebook.ipynb) generates a table comparing the performance metrics (MSE, RMSE, MAE, R-squared) for each model before and after tuning. This allows to analyze the impact of tuning on the model's ability to generalize to unseen data.
+The [main_notebook.ipynb](https://github.com/sirrtt/InspireLab-Technical-Assessment-Test-for-AI-Fresher-Position/blob/main/Notebook.ipynb) generates a table comparing the performance metrics (MSE, RMSE, MAE, R-squared) for each model before and after tuning. This allows to analyze the impact of tuning on the model's ability to generalize to unseen data.
 
 ## Further Exploration:
 
