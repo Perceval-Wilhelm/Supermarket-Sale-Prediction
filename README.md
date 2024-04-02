@@ -38,11 +38,12 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the req
 ├── model              # store models for project
 |   ├── best_model
 |   |   └── sgd_regressor_best_model.pkl
+|   ├── scaler          # the scaler of data
 |   └── other_models
 ├── main_notebook.ipynb      # the main Notebook for this project
 ├── README.md           # guideline for develop
 └── requirements.txt    # requirements to set up project
-
+```
 ## Model Used:
 
 - Linear Regression 
