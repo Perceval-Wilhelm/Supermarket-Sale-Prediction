@@ -42,7 +42,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the req
 ├── main_notebook.ipynb      # the main Notebook for this project
 ├── README.md           # guideline for develop
 └── requirements.txt    # requirements to set up project
-
+```
 ## Model Used:
 
 - Linear Regression 
