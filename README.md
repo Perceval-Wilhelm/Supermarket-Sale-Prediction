@@ -1,7 +1,5 @@
 
-# InspireLab Technical Assessment Test for AI Fresher Position
-
-This reposity is mainly dedicated to solving tasks and problems in the InspireLab Technical Assessment Test for the AI Fresher position.
+# Supermarket Sale Prediction
 
 The task is to build a regression model to predict supermarket sales based on the provided dataset.
 
